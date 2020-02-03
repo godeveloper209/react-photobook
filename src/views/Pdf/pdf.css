@@ -1,0 +1,208 @@
+/*Overwrite all the css for designing pdf*/
+
+.pdf .app .col-md-2 {
+    display: none;
+}
+
+.pdf .row .col-md-10 {
+    width: 100%;
+}
+
+@media (min-width: 100px) {
+    .pdf .row .col-md-10 {
+        flex: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .pdf .app .main-body {
+        height: 85vh;
+    }
+}
+
+.pdf .footer {
+    display: none;
+}
+
+.pdf .product {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pdf .product-card {
+    height: 21cm;
+    width: 100%;
+    max-width: 1100px;
+    min-width: 1100px;
+    min-height: 100%;
+}
+
+.pdf .page-wrapper {
+    margin: 0 !important;
+}
+
+.pdf .app .main-body .product .product-card .layout4 {
+    height: 100%;
+}
+
+/*********************** Layout1 ****************************/
+.pdf .layout1 img {
+    height: 19cm;
+    margin-bottom: 10px;
+}
+
+.pdf .layout1-input {
+    height: 19cm;
+}
+
+/*********************** Layout2 ****************************/
+.pdf .layout2 img {
+    height: 17.5cm;
+}
+
+.pdf .layout2-input {
+    height: 2cm;
+}
+
+/*********************** Layout3 ****************************/
+
+.pdf .layout3-container1 img {
+    height: 17cm;
+    width: 99% !important;
+}
+
+.pdf .layout3-container2 img {
+    height: 17cm;
+}
+
+.pdf .layout3-input1 {
+    height: 2cm;
+}
+
+.pdf .layout3-input2 {
+    height: 2cm;
+}
+
+/*********************** Layout4 ****************************/
+
+.pdf .layout4-image-container {
+    height: 100%;
+}
+
+.pdf .layout4-one-image-container .img-container img {
+    height: 10cm;
+}
+
+.pdf .layout4-two-image-container .layout4-two-image-container1 img {
+    height: 9cm;
+}
+
+.pdf .layout4-two-image-container .layout4-two-image-container2 {
+    margin-right: 8px;
+}
+
+.pdf .layout4-two-image-container .layout4-two-image-container2 img {
+    height: 9cm;
+}
+
+.pdf .layout4-input {
+    height: 19.2cm;
+}
+
+/*********************** Layout5 ****************************/
+.pdf .layout5-one-image-container {
+    margin-right: 8px;
+}
+
+.pdf .layout5-one-image-container img {
+    height: 17cm;
+    padding: 0;
+}
+
+.pdf .layout5-two-image-container .layout5-two-image-container1 img {
+    height: 8.5cm;
+}
+
+.pdf .layout5-two-image-container .layout5-two-image-container2 img {
+    height: 8.3cm;
+}
+
+.pdf .layout5-input {
+    height: 2cm;
+}
+
+
+/*****************************File Uploader*********************************/
+
+/*********************** Layout1 ****************************/
+.pdf .layout1-image-uploader {
+    height: 19cm;
+    margin-bottom: 10px;
+}
+
+/*********************** Layout2 ****************************/
+.pdf .layout2-image-uploader {
+    height: 16cm;
+    margin-bottom: 10px;
+}
+
+/*********************** Layout3 ****************************/
+.pdf .layout3-image1-uploader {
+    height: 16cm;
+}
+
+.pdf .layout3-image2-uploader {
+    height: 16cm;
+}
+
+/*********************** Layout4 ****************************/
+.pdf .layout4-image1-uploader {
+    height: 9.5cm;
+}
+
+.pdf .layout4-image2-uploader {
+    height: 9.5cm;
+}
+
+.pdf .layout4-image3-uploader {
+    height: 9.5cm;
+}
+
+/*********************** Layout5 ****************************/
+.pdf .layout5-image1-uploader {
+    height: 16.2cm;
+}
+
+.pdf .layout5-image2-uploader {
+    height: 8cm;
+}
+
+.pdf .layout5-image3-uploader {
+    height: 8cm;
+}
+
+/*Don't show the add page button*/
+.pdf .btn-add-page {
+    display: none;
+}
+
+.pdf .btn-add-all-photo {
+    display: none;
+}
+
+.pdf .btn-print-pdf {
+    display: none;
+}
+
+.print-pdf {
+    width: 250px;
+    background-color: #9747b7 !important;
+
+}
+
+.print-button-container {
+    padding-top: 15px;
+}

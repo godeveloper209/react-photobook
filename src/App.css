@@ -1,0 +1,41 @@
+body {
+    overflow: hidden;
+}
+
+.app {
+    box-shadow: 0 0 1px rgba(0, 0, 0, .14), 0 2px 4px rgba(0, 0, 0, .038);
+}
+
+.bg-red {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.main-body {
+    background-color: #f6f8fb;
+    height: 87vh;
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .main-body {
+        height: 83vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg-red {
+        display: none;
+    }
+}
+
+button:focus {
+    outline: none;
+}
+
+.display-none {
+    display: none;
+}

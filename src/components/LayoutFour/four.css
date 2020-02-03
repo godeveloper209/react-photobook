@@ -1,0 +1,108 @@
+/* ****************************** Layout 4 ************************* */
+.layout4 {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.layout4-one-image-container {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.layout4-image-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.layout4-two-image-container {
+    display: flex;
+    flex: 100%;
+    margin-right: 10px;
+}
+
+.layout4-two-image-container1 {
+    display: flex;
+    width: 100%;
+    margin-right: 5px;
+
+}
+
+.layout4-two-image-container2 {
+    display: flex;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.layout4-one-image-container-image {
+    height: 95px;
+    width: 100%;
+}
+
+.layout4-two-image-container1-image {
+    height: 85px;
+    width: 100%;
+}
+
+.layout4-two-image-container2-image {
+    height: 85px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.layout4-input-container {
+    flex: 60%;
+}
+
+.layout4-input {
+    height: 190px;
+    width: 100%;
+    font-size: 7px;
+    word-wrap: break-word !important;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    pointer-events: none;
+}
+
+/********************************************** Zoom Page Design *************************************************/
+
+.modal-body .layout4 {
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.modal-body .layout4-two-image-container1 {
+    margin-right: 10px;
+}
+.modal-body .layout4-two-image-container2{
+    margin-left: 10px;
+}
+
+.layout4-zoom-one-image-container-image {
+    height: 280px;
+    width: 100%;
+}
+
+.layout4-zoom-two-image-container1-image {
+    height: 250px;
+    width: 100%;
+}
+
+.layout4-zoom-two-image-container2-image {
+    height: 250px;
+    width: 100%;
+}
+
+.layout4-zoom-input {
+    height: 540px;
+    width: 100%;
+    font-size: 22px;
+    padding-left: 35px;
+    border-style: dotted;
+    border-color: #d3d7de;
+    word-wrap: break-word !important;
+}

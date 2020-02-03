@@ -1,0 +1,106 @@
+/* ****************************** Layout 5 ************************* */
+.layout5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.layout5-image-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.layout5-one-image-container {
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.layout5-one-image-container-image {
+    height: 148px;
+    width: 100%;
+}
+
+.layout5-two-image-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.layout5-two-image-container1 {
+    margin-bottom: 5px;
+}
+.layout5-two-image-container2{
+    margin-top: 5px;
+}
+
+.layout5-two-image-container1-image {
+    height: 69px;
+    width: 100%;
+}
+
+.layout5-two-image-container2-image {
+    height: 69px;
+    width: 100%;
+}
+
+.layout5-input {
+    height: 30px;
+    width: 100%;
+    font-size: 6px;
+    word-wrap: break-word !important;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    pointer-events: none;
+}
+
+.layout5-input-container {
+    width: 100%;
+}
+
+
+/********************************************** Zoom Page Design *************************************************/
+.modal-body .layout5 {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.modal-body .layout5-one-image-container {
+    margin-right: 8px;
+}
+
+.layout5-zoom-two-image-container1-image {
+    height: 205px;
+    padding: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.layout5-zoom-two-image-container2-image {
+    height: 205px;
+    padding: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.layout5-zoom-one-image-container-image {
+    height: 420px;
+    width: 100%;
+}
+
+.layout5-zoom-input {
+    height: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    font-size: 22px;
+    border-style: dotted;
+    border-color: #d3d7de;
+    word-wrap: break-word !important;
+}

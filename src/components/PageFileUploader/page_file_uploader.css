@@ -1,0 +1,126 @@
+.upload-single {
+    border: 2px dashed #d3d7de;
+    position: relative;
+}
+
+.drop-section {
+    width: 100%;
+    height: 100%;
+}
+
+/************************ Layout 1 *************************/
+/*only one image*/
+.layout1-image-uploader {
+    height: 180px;
+    margin-right: 10px;
+}
+
+/************************ Layout 2 *************************/
+/*only one image*/
+.layout2-image-uploader {
+    height: 142px;
+    margin-top: 8px;
+}
+
+/************************ Layout 3 *************************/
+/*two image*/
+.layout3-image1-uploader {
+    height: 140px;
+    margin-bottom: 5px;
+}
+
+.layout3-image2-uploader {
+    height: 140px;
+    margin-bottom: 5px;
+}
+
+/************************ Layout 4 *************************/
+/*three image*/
+.layout4-image1-uploader {
+    height: 95px;
+}
+
+.layout4-image2-uploader {
+    height: 85px;
+}
+
+.layout4-image3-uploader {
+    height: 85px;
+}
+
+/************************ Layout 5 *************************/
+/*three image*/
+.layout5-image1-uploader {
+    height: 148px;
+}
+
+.layout5-image2-uploader {
+    height: 69px;
+}
+
+.layout5-image3-uploader {
+    height: 69px;
+}
+
+
+/********************************************** Zoom Page Design *************************************************/
+
+/************************ Layout 1 *************************/
+/*only one image*/
+.layout1-zoom-image-uploader {
+    height: 510px;
+    margin-right: 10px;
+}
+
+/************************ Layout 2 *************************/
+/*only one image*/
+.layout2-zoom-image-uploader {
+    height: 430px;
+    margin-top: 10px;
+}
+
+/************************ Layout 3 *************************/
+/*two image*/
+.layout3-zoom-image1-uploader {
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.layout3-zoom-image2-uploader {
+    height: 400px;
+    margin-bottom: 10px;
+}
+/************************ Layout 4 *************************/
+/*three image*/
+.layout4-zoom-image1-uploader {
+    height: 280px;
+}
+
+.layout4-zoom-image2-uploader {
+    height: 250px;
+}
+
+.layout4-zoom-image3-uploader {
+    height: 250px;
+}
+
+/************************ Layout 5 *************************/
+.layout5-zoom-image1-uploader {
+    height: 450px;
+}
+
+.layout5-zoom-image2-uploader {
+    height: 220px;
+}
+
+.layout5-zoom-image3-uploader {
+    height: 220px;
+}
+
+.page-upload-progress-bar {
+    position: absolute;
+    top: -2%;
+    left: 0;
+    width: 100%;
+    height: 8px !important;
+}

@@ -1,0 +1,61 @@
+/* ****************************** Layout 2 ************************* */
+.layout2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.layout2-image {
+    height: 149px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.layout2-input {
+    height: 35px;
+    padding-left: 15px;
+    font-size: 7px;
+    background-color: transparent;
+    border: none;
+    word-wrap: break-word !important;
+    resize: none;
+    pointer-events: none;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+}
+
+.btn-remove-img-from-page {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    border-radius: 3px;
+    background-color: #9747b7;
+    color: #fff;
+    height: 26px !important;
+    width: 24px;
+    padding: 0;
+    line-height: 1px;
+}
+/********************************************** Zoom Page Design *************************************************/
+.modal-body .layout2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.layout2-zoom-image {
+    height: 440px;
+    width: 100%;
+    margin-top: 10px;
+}
+.layout2-zoom-input{
+    height: 90px;
+    border-style: dotted;
+    font-size: 25px;
+    padding-left: 40px;
+    border-color: #d3d7de;
+    word-wrap: break-word !important;
+}

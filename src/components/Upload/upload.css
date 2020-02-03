@@ -1,0 +1,88 @@
+/*upload-title-box design box will contain the title 'UPLOAD IMAGE' and a remove all button*/
+.upload-title-box {
+    position: relative;
+}
+
+.upload-top-title {
+    margin-top: 15px;
+}
+
+.upload-title {
+    margin-bottom: 10px;
+}
+
+.upload-div {
+    margin-right: 20px;
+    margin-left: 40px;
+    height: 75vh;
+    border: 2px dashed #d3d7de;
+    position: relative;
+    overflow-y: auto;
+}
+
+/*Horizontally and vertically center element*/
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* When image is dropped over we should not display the border and the upload button*/
+.dropped {
+    border: none;
+}
+
+.dropped .content {
+    display: none;
+}
+
+/*Image preview div*/
+.preview-image-div {
+    position: relative;
+    margin-top: 10px;
+}
+
+.upload-progress-bar {
+    position: absolute;
+    top: -3%;
+    width: 80%;
+    right: 10%;
+    height: 8px !important;
+}
+
+/*button remove image*/
+.btn-remove-image {
+    position: absolute;
+    right: 12%;
+    top: 5%;
+    border-radius: 3px;
+    background-color: #9747b7;
+    color: #fff;
+    height: 24px !important;
+    width: 20px;
+    padding: 0;
+    line-height: 1px;
+}
+
+/*button for remove everything*/
+.btn-remove-all {
+    position: absolute;
+    right: 5%;
+    top: -5%;
+    border-radius: 3px;
+    background-color: #9747b7;
+    color: #fff;
+    height: 24px !important;
+    width: 20px;
+    padding: 0;
+    line-height: 1px;
+}
+.layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 247, 216, 0.7);
+
+}

@@ -1,0 +1,73 @@
+.navbar{
+    position: relative;
+    z-index: 999;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .14), 0 2px 4px rgba(0, 0, 0, .038);
+}
+.logo {
+    width: 100%;
+    display: inline-block !important;
+    text-align: center;
+}
+
+.logo .title-1 {
+    color: #9747b7;
+}
+
+.logo .title-2 {
+    color: #967f7a;
+}
+.btn-upload{
+    float: right;
+    color: #fff;
+    border-radius: 5px;
+    padding: .375rem .75rem;
+    background: #9747b7;
+    cursor: pointer;
+}
+.btn-upload:focus{
+    outline: none;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo{
+        width: 70%;
+    }
+    .btn-lock{
+        right: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .btn-upload{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .logo{
+        width: 95%;
+    }
+    .btn-upload{
+        display: none;
+    }
+}
+.btn-print-pdf {
+    background-color: #A43CBE;
+    border-radius: 5px;
+    color: #fff;
+    padding: .375rem .75rem;
+    cursor: pointer;
+}
+.btn-print-pdf:focus{
+    outline: none;
+}

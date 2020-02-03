@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 15px;
+}
+.btn-continue{
+    width: 250px;
+    background-color: #9747b7 !important;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footer{
+        margin-top: 10px;
+    }
+}
